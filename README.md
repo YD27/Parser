@@ -1,5 +1,5 @@
 Commands:  
-g++ -std=c++17 -o FeederExe main.cpp MarketDataHandler.cpp OrderBook.cpp SocketConnection.cpp -L/usr/local/lib -llzo2 -lzstd
+g++ -std=c++17 -o FeederExe main.cpp MarketDataHandler.cpp OrderBook.cpp SocketConnection.cpp -L/usr/local/lib -llzo2 -lzstd  
 ./FeederExe
 
 Set up LZO library with commands:  
